@@ -1,0 +1,711 @@
+[
+    {
+        "_id": "642e88228c3223110000003b",
+        "applicationId": "marketplace",
+        "slug": "Tweet classifier",
+        "createdAt": "2023-04-06T08:51:46.548Z",
+        "updatedAt": "2023-04-06T08:51:46.548Z",
+        "deleted": false,
+        "policies": [
+            {
+                "permission": "read:pages",
+                "groups": [],
+                "users": [
+                    null
+                ]
+            },
+            {
+                "permission": "manage:pages",
+                "groups": [],
+                "users": [
+                    null
+                ]
+            }
+        ],
+        "Page": {
+            "name": "Tweet classifier",
+            "layouts": [
+                {
+                    "_id": "642e88228c3223110000003c",
+                    "viewMode": false,
+                    "dsl": {
+                        "widgetName": "MainContainer",
+                        "backgroundColor": "none",
+                        "rightColumn": 1224,
+                        "snapColumns": 64,
+                        "widgetId": "0",
+                        "topRow": 0,
+                        "bottomRow": 1440,
+                        "parentRowSpace": 1,
+                        "type": "CANVAS_WIDGET",
+                        "detachFromLayout": true,
+                        "minHeight": 640,
+                        "dynamicBindingPathList": [],
+                        "parentColumnSpace": 1,
+                        "leftColumn": 0,
+                        "children": [
+                            {
+                                "isVisible": true,
+                                "backgroundColor": "#F6F7F8",
+                                "widgetName": "GridLayout1",
+                                "containerStyle": "card",
+                                "borderColor": "transparent",
+                                "borderWidth": "0",
+                                "borderRadius": "0",
+                                "boxShadow": "NONE",
+                                "animateLoading": true,
+                                "removePadding": true,
+                                "children": [
+                                    {
+                                        "isVisible": true,
+                                        "widgetName": "GridLayoutCanvas1",
+                                        "version": 1,
+                                        "detachFromLayout": true,
+                                        "type": "GRID_LAYOUT_CANVAS_WIDGET",
+                                        "hideCard": true,
+                                        "displayName": "GridLayoutCanvas",
+                                        "key": "q5olwz54s2",
+                                        "containerStyle": "none",
+                                        "canExtend": false,
+                                        "children": [
+                                            {
+                                                "width": 428,
+                                                "height": 454,
+                                                "canEscapeKeyClose": true,
+                                                "animateLoading": true,
+                                                "detachFromLayout": true,
+                                                "canOutsideClickClose": true,
+                                                "shouldScrollContents": true,
+                                                "widgetName": "Modal_settings",
+                                                "children": [
+                                                    {
+                                                        "isVisible": true,
+                                                        "widgetName": "Canvas1",
+                                                        "version": 1,
+                                                        "detachFromLayout": true,
+                                                        "type": "CANVAS_WIDGET",
+                                                        "hideCard": true,
+                                                        "displayName": "Canvas",
+                                                        "key": "ahosrna7zp",
+                                                        "canExtend": true,
+                                                        "isDisabled": false,
+                                                        "shouldScrollContents": false,
+                                                        "children": [
+                                                            {
+                                                                "isVisible": true,
+                                                                "iconName": "cross",
+                                                                "borderRadius": "SHARP",
+                                                                "boxShadow": "NONE",
+                                                                "buttonColor": "#2E3D49",
+                                                                "buttonVariant": "TERTIARY",
+                                                                "isDisabled": false,
+                                                                "widgetName": "IconButton1",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "ICON_BUTTON_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Icon Button",
+                                                                "key": "tou063hai5",
+                                                                "iconSVG": "/static/media/icon.1a0c634a.svg",
+                                                                "iconSize": 24,
+                                                                "widgetId": "ta8ibjcylq",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "leftColumn": 56,
+                                                                "rightColumn": 64,
+                                                                "topRow": 1,
+                                                                "bottomRow": 5,
+                                                                "parentId": "jv27x0o1pf",
+                                                                "onClick": "{{closeModal('Modal_settings')}}",
+                                                                "dynamicBindingPathList": [],
+                                                                "dynamicTriggerPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                "isVisible": true,
+                                                                "text": "Settings",
+                                                                "fontSize": "HEADING1",
+                                                                "fontStyle": "BOLD",
+                                                                "textAlign": "LEFT",
+                                                                "textColor": "#231F20",
+                                                                "truncateButtonColor": "#FFC13D",
+                                                                "widgetName": "Text2",
+                                                                "shouldTruncate": false,
+                                                                "overflow": "NONE",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "TEXT_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Text",
+                                                                "key": "8ifvy7sglx",
+                                                                "iconSVG": "/static/media/icon.97c59b52.svg",
+                                                                "widgetId": "jbv4n151i1",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "leftColumn": 1,
+                                                                "rightColumn": 56,
+                                                                "topRow": 1,
+                                                                "bottomRow": 5,
+                                                                "parentId": "jv27x0o1pf",
+                                                                "dynamicBindingPathList": [],
+                                                                "dynamicTriggerPathList": []
+                                                            },
+                                                            {
+                                                                "isVisible": true,
+                                                                "animateLoading": true,
+                                                                "defaultSelectedRow": "0",
+                                                                "label": "Data",
+                                                                "widgetName": "Table1",
+                                                                "searchKey": "",
+                                                                "textSize": "PARAGRAPH",
+                                                                "horizontalAlignment": "LEFT",
+                                                                "verticalAlignment": "CENTER",
+                                                                "totalRecordsCount": 0,
+                                                                "defaultPageSize": 0,
+                                                                "isShowLoading": true,
+                                                                "dynamicBindingPathList": [
+                                                                    {
+                                                                        "key": "tableData"
+                                                                    },
+                                                                    {
+                                                                        "key": "primaryColumns.key.computedValue"
+                                                                    },
+                                                                    {
+                                                                        "key": "primaryColumns.value.computedValue"
+                                                                    }
+                                                                ],
+                                                                "primaryColumns": {
+                                                                    "key": {
+                                                                        "index": 0,
+                                                                        "width": 150,
+                                                                        "id": "key",
+                                                                        "horizontalAlignment": "LEFT",
+                                                                        "verticalAlignment": "CENTER",
+                                                                        "columnType": "text",
+                                                                        "textSize": "PARAGRAPH",
+                                                                        "enableFilter": true,
+                                                                        "enableSort": true,
+                                                                        "isVisible": true,
+                                                                        "isDisabled": false,
+                                                                        "isCellVisible": true,
+                                                                        "isDerived": false,
+                                                                        "label": "key",
+                                                                        "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.key))}}",
+                                                                        "cellBackground": "#E5EFFF "
+                                                                    },
+                                                                    "value": {
+                                                                        "index": 1,
+                                                                        "width": 150,
+                                                                        "id": "value",
+                                                                        "horizontalAlignment": "LEFT",
+                                                                        "verticalAlignment": "CENTER",
+                                                                        "columnType": "text",
+                                                                        "textSize": "PARAGRAPH",
+                                                                        "enableFilter": true,
+                                                                        "enableSort": true,
+                                                                        "isVisible": true,
+                                                                        "isDisabled": false,
+                                                                        "isCellVisible": true,
+                                                                        "isDerived": false,
+                                                                        "label": "value",
+                                                                        "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.value))}}",
+                                                                        "cellBackground": "#E5EFFF "
+                                                                    }
+                                                                },
+                                                                "derivedColumns": {},
+                                                                "tableData": "{{create_tweet?.data?.settings }}\n\n",
+                                                                "columnSizeMap": {
+                                                                    "task": 245,
+                                                                    "step": 62,
+                                                                    "status": 75
+                                                                },
+                                                                "columnOrder": [
+                                                                    "key",
+                                                                    "value"
+                                                                ],
+                                                                "enableClientSideSearch": true,
+                                                                "isVisibleSearch": false,
+                                                                "isVisibleFilters": false,
+                                                                "isVisibleDownload": false,
+                                                                "isVisiblePagination": false,
+                                                                "isSortable": true,
+                                                                "delimiter": ",",
+                                                                "version": 3,
+                                                                "type": "TABLE_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Table",
+                                                                "key": "7wfdjucus8",
+                                                                "iconSVG": "/static/media/icon.db8a9cbd.svg",
+                                                                "widgetId": "czphfml3s3",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 6.5,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 1,
+                                                                "rightColumn": 64,
+                                                                "topRow": 6,
+                                                                "bottomRow": 43,
+                                                                "parentId": "jv27x0o1pf",
+                                                                "dynamicTriggerPathList": [],
+                                                                "cellBackground": "#E5EFFF ",
+                                                                "dynamicPropertyPathList": []
+                                                            }
+                                                        ],
+                                                        "minHeight": 454,
+                                                        "widgetId": "jv27x0o1pf",
+                                                        "renderMode": "CANVAS",
+                                                        "isLoading": false,
+                                                        "parentColumnSpace": 1,
+                                                        "parentRowSpace": 1,
+                                                        "leftColumn": 0,
+                                                        "rightColumn": 249,
+                                                        "topRow": 0,
+                                                        "bottomRow": 450,
+                                                        "parentId": "fuf4zy2tc8"
+                                                    }
+                                                ],
+                                                "version": 2,
+                                                "type": "MODAL_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Modal",
+                                                "key": "7fwmpn5xdc",
+                                                "iconSVG": "/static/media/icon.4975978e.svg",
+                                                "isCanvas": true,
+                                                "widgetId": "fuf4zy2tc8",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 10.375,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 18,
+                                                "rightColumn": 42,
+                                                "topRow": 88,
+                                                "bottomRow": 112,
+                                                "parentId": "x984zggmws"
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "backgroundColor": "#FFFFFF",
+                                                "widgetName": "GridLayout_id",
+                                                "containerStyle": "card",
+                                                "borderColor": "transparent",
+                                                "borderWidth": "0",
+                                                "borderRadius": "0",
+                                                "boxShadow": "NONE",
+                                                "animateLoading": true,
+                                                "removePadding": true,
+                                                "children": [
+                                                    {
+                                                        "isVisible": true,
+                                                        "widgetName": "GridLayoutCanvas2",
+                                                        "version": 1,
+                                                        "detachFromLayout": true,
+                                                        "type": "GRID_LAYOUT_CANVAS_WIDGET",
+                                                        "hideCard": true,
+                                                        "displayName": "GridLayoutCanvas",
+                                                        "key": "q5olwz54s2",
+                                                        "containerStyle": "none",
+                                                        "canExtend": false,
+                                                        "children": [
+                                                            {
+                                                                "isVisible": true,
+                                                                "text": "Tweet classifier",
+                                                                "fontSize": "HEADING1",
+                                                                "fontStyle": "BOLD",
+                                                                "textAlign": "LEFT",
+                                                                "textColor": "#231F20",
+                                                                "truncateButtonColor": "#FFC13D",
+                                                                "widgetName": "Text_iq",
+                                                                "shouldTruncate": false,
+                                                                "overflow": "NONE",
+                                                                "version": 1,
+                                                                "animateLoading": true,
+                                                                "type": "TEXT_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Text",
+                                                                "key": "8ifvy7sglx",
+                                                                "iconSVG": "/static/media/icon.97c59b52.svg",
+                                                                "widgetId": "qh3jyc59xs",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 10.0625,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 0,
+                                                                "rightColumn": 40,
+                                                                "topRow": 0,
+                                                                "bottomRow": 9,
+                                                                "parentId": "2b3knqo380",
+                                                                "dynamicBindingPathList": [],
+                                                                "dynamicTriggerPathList": []
+                                                            },
+                                                            {
+                                                                "isVisible": true,
+                                                                "animateLoading": true,
+                                                                "text": "Settings",
+                                                                "buttonColor": "#2E3D49",
+                                                                "buttonVariant": "TERTIARY",
+                                                                "placement": "CENTER",
+                                                                "widgetName": "Button_iq",
+                                                                "isDisabled": false,
+                                                                "isDefaultClickDisabled": true,
+                                                                "recaptchaType": "V3",
+                                                                "version": 1,
+                                                                "classStyle": "",
+                                                                "type": "BUTTON_WIDGET",
+                                                                "hideCard": false,
+                                                                "displayName": "Button",
+                                                                "key": "nlhmafwxjp",
+                                                                "iconSVG": "/static/media/icon.cca02633.svg",
+                                                                "widgetId": "nehqigprlp",
+                                                                "renderMode": "CANVAS",
+                                                                "isLoading": false,
+                                                                "parentColumnSpace": 10.0625,
+                                                                "parentRowSpace": 10,
+                                                                "leftColumn": 53,
+                                                                "rightColumn": 64,
+                                                                "topRow": 0,
+                                                                "bottomRow": 9,
+                                                                "parentId": "2b3knqo380",
+                                                                "dynamicBindingPathList": [],
+                                                                "dynamicTriggerPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ],
+                                                                "borderRadius": "ROUNDED",
+                                                                "iconName": "settings",
+                                                                "iconAlign": "left",
+                                                                "onClick": "{{create_tweet.run();showModal('Modal_settings')}}",
+                                                                "dynamicPropertyPathList": [
+                                                                    {
+                                                                        "key": "onClick"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "widgetId": "2b3knqo380",
+                                                        "renderMode": "CANVAS",
+                                                        "isLoading": false,
+                                                        "leftColumn": 0,
+                                                        "rightColumn": null,
+                                                        "topRow": 0,
+                                                        "bottomRow": 110,
+                                                        "parentId": "toucwgeohe"
+                                                    }
+                                                ],
+                                                "version": 1,
+                                                "classStyle": "",
+                                                "type": "GRIDLAYOUT_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Grid Layout",
+                                                "key": "nayc2oihcd",
+                                                "iconSVG": "/static/media/icon.5c440258.svg",
+                                                "isCanvas": true,
+                                                "widgetId": "toucwgeohe",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 10.375,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 0,
+                                                "bottomRow": 11,
+                                                "parentId": "x984zggmws"
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "label": "Prompt",
+                                                "labelPosition": "Top",
+                                                "labelAlignment": "left",
+                                                "labelWidth": 5,
+                                                "widgetName": "Input_prompt",
+                                                "version": 2,
+                                                "defaultText": "Decide whether a Tweet's sentiment is positive, neutral, or negative.\n\nTweet: \"I loved the new Batman movie!\"\nSentiment:",
+                                                "iconAlign": "left",
+                                                "autoFocus": false,
+                                                "labelStyle": "BOLD",
+                                                "resetOnSubmit": true,
+                                                "isRequired": false,
+                                                "isDisabled": false,
+                                                "animateLoading": true,
+                                                "classStyle": "",
+                                                "inputType": "TEXT",
+                                                "buttonPosition": "right",
+                                                "type": "INPUT_WIDGET_V2",
+                                                "hideCard": false,
+                                                "displayName": "Input",
+                                                "key": "hfgu2t39lw",
+                                                "iconSVG": "/static/media/icon.9f505595.svg",
+                                                "widgetId": "yzej0xbobt",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 10.375,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 13,
+                                                "bottomRow": 42,
+                                                "parentId": "x984zggmws",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": [],
+                                                "labelTextSize": "HEADING3"
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "label": "Sample response",
+                                                "labelPosition": "Top",
+                                                "labelAlignment": "left",
+                                                "labelWidth": 5,
+                                                "widgetName": "Input_response",
+                                                "version": 2,
+                                                "defaultText": "{{create_tweet?.data?.text ? create_tweet?.data?.text :` Positive`}}",
+                                                "iconAlign": "left",
+                                                "autoFocus": false,
+                                                "labelStyle": "BOLD",
+                                                "resetOnSubmit": true,
+                                                "isRequired": false,
+                                                "isDisabled": false,
+                                                "animateLoading": true,
+                                                "classStyle": "",
+                                                "inputType": "TEXT",
+                                                "buttonPosition": "right",
+                                                "type": "INPUT_WIDGET_V2",
+                                                "hideCard": false,
+                                                "displayName": "Input",
+                                                "key": "hfgu2t39lw",
+                                                "iconSVG": "/static/media/icon.9f505595.svg",
+                                                "widgetId": "4f52xxw5rh",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 10.375,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 79,
+                                                "bottomRow": 106,
+                                                "parentId": "x984zggmws",
+                                                "dynamicBindingPathList": [
+                                                    {
+                                                        "key": "defaultText"
+                                                    }
+                                                ],
+                                                "dynamicTriggerPathList": [],
+                                                "labelTextSize": "HEADING3"
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "text": "To use, you need to generate your own key,the instruction is at the link  ⇥ ",
+                                                "fontSize": "PARAGRAPH",
+                                                "fontStyle": "BOLD,UNDERLINE",
+                                                "textAlign": "LEFT",
+                                                "textColor": "#3366FF",
+                                                "truncateButtonColor": "#FFC13D",
+                                                "widgetName": "Text4Copy",
+                                                "shouldTruncate": false,
+                                                "overflow": "NONE",
+                                                "version": 1,
+                                                "animateLoading": true,
+                                                "type": "TEXT_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Text",
+                                                "key": "pcgsjnm6y2",
+                                                "iconSVG": "/static/media/icon.97c59b52.svg",
+                                                "widgetId": "zs3wj182sx",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 29.84375,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 42,
+                                                "bottomRow": 47,
+                                                "parentId": "x984zggmws",
+                                                "dynamicBindingPathList": [],
+                                                "dynamicTriggerPathList": [
+                                                    {
+                                                        "key": "onClick"
+                                                    }
+                                                ],
+                                                "onClick": "{{navigateTo('https://community.ubos.tech/vika/customersupportchatbot-1ac8/#openai', {},'NEW_WINDOW')}}",
+                                                "dynamicPropertyPathList": [],
+                                                "borderColor": "#3366FF",
+                                                "disableLink": false,
+                                                "borderWidth": ""
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "label": "OpenAI key",
+                                                "labelPosition": "Top",
+                                                "labelAlignment": "left",
+                                                "labelWidth": 5,
+                                                "widgetName": "Input1",
+                                                "version": 2,
+                                                "defaultText": "{{main.store.keyAI?main.store.keyAI:\"\"}}",
+                                                "iconAlign": "left",
+                                                "autoFocus": false,
+                                                "labelStyle": "BOLD",
+                                                "resetOnSubmit": true,
+                                                "isRequired": false,
+                                                "isDisabled": false,
+                                                "animateLoading": true,
+                                                "classStyle": "",
+                                                "inputType": "TEXT",
+                                                "buttonPosition": "right",
+                                                "type": "INPUT_WIDGET_V2",
+                                                "hideCard": false,
+                                                "displayName": "Input",
+                                                "key": "q35w6kja92",
+                                                "iconSVG": "/static/media/icon.9f505595.svg",
+                                                "widgetId": "bw9ikm1ui0",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 29.84375,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 0,
+                                                "rightColumn": 64,
+                                                "topRow": 47,
+                                                "bottomRow": 55,
+                                                "parentId": "x984zggmws",
+                                                "dynamicBindingPathList": [
+                                                    {
+                                                        "key": "defaultText"
+                                                    }
+                                                ],
+                                                "dynamicTriggerPathList": [
+                                                    {
+                                                        "key": "onTextChanged"
+                                                    }
+                                                ],
+                                                "onTextChanged": "{{storeValue(\"keyAI\",Input1.text,true)}}",
+                                                "dynamicPropertyPathList": [
+                                                    {
+                                                        "key": "onTextChanged"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "isVisible": true,
+                                                "animateLoading": true,
+                                                "text": "Submit",
+                                                "buttonColor": "#629EF8 ",
+                                                "buttonVariant": "PRIMARY",
+                                                "placement": "CENTER",
+                                                "widgetName": "Button1Copy",
+                                                "isDisabled": "{{!Input1.text}}",
+                                                "isDefaultClickDisabled": true,
+                                                "recaptchaType": "V3",
+                                                "version": 1,
+                                                "classStyle": "",
+                                                "type": "BUTTON_WIDGET",
+                                                "hideCard": false,
+                                                "displayName": "Button",
+                                                "key": "qqcsdps12k",
+                                                "iconSVG": "/static/media/icon.cca02633.svg",
+                                                "widgetId": "mpz31w7bn6",
+                                                "renderMode": "CANVAS",
+                                                "isLoading": false,
+                                                "parentColumnSpace": 10.375,
+                                                "parentRowSpace": 10,
+                                                "leftColumn": 45,
+                                                "rightColumn": 64,
+                                                "topRow": 73,
+                                                "bottomRow": 77,
+                                                "parentId": "x984zggmws",
+                                                "dynamicBindingPathList": [
+                                                    {
+                                                        "key": "isDisabled"
+                                                    },
+                                                    {
+                                                        "key": "tooltip"
+                                                    }
+                                                ],
+                                                "dynamicTriggerPathList": [
+                                                    {
+                                                        "key": "onClick"
+                                                    }
+                                                ],
+                                                "borderRadius": "ROUNDED",
+                                                "onClick": "\n{{create_tweet.run(()  => showAlert('succsses','success'), () => showAlert(create_tweet.data.payload,'error'))}}",
+                                                "dynamicPropertyPathList": [
+                                                    {
+                                                        "key": "onClick"
+                                                    },
+                                                    {
+                                                        "key": "isDisabled"
+                                                    }
+                                                ],
+                                                "tooltip": "{{Button1Copy.isDisabled ? \"add OpenAI key\":\"Generate\" }}"
+                                            }
+                                        ],
+                                        "widgetId": "x984zggmws",
+                                        "renderMode": "CANVAS",
+                                        "isLoading": false,
+                                        "leftColumn": 0,
+                                        "rightColumn": null,
+                                        "topRow": 0,
+                                        "bottomRow": 1080,
+                                        "parentId": "o9wg65iiey"
+                                    }
+                                ],
+                                "version": 1,
+                                "classStyle": "",
+                                "type": "GRIDLAYOUT_WIDGET",
+                                "hideCard": false,
+                                "displayName": "Grid Layout",
+                                "key": "nayc2oihcd",
+                                "iconSVG": "/static/media/icon.5c440258.svg",
+                                "isCanvas": true,
+                                "widgetId": "o9wg65iiey",
+                                "renderMode": "CANVAS",
+                                "isLoading": false,
+                                "parentColumnSpace": 10.6875,
+                                "parentRowSpace": 10,
+                                "leftColumn": 0,
+                                "rightColumn": 64,
+                                "topRow": 1,
+                                "bottomRow": 110,
+                                "parentId": "0",
+                                "dynamicBindingPathList": [],
+                                "dynamicTriggerPathList": []
+                            }
+                        ],
+                        "snapRows": 63,
+                        "containerStyle": "none",
+                        "canExtend": true,
+                        "version": 57
+                    },
+                    "widgetNames": [
+                        "MainContainer",
+                        "GridLayout1",
+                        "GridLayoutCanvas1",
+                        "Modal_settings",
+                        "Canvas1",
+                        "IconButton1",
+                        "Text2",
+                        "Table1",
+                        "GridLayout_id",
+                        "GridLayoutCanvas2",
+                        "Text_iq",
+                        "Button_iq",
+                        "Input_prompt",
+                        "Input_response",
+                        "Text4Copy",
+                        "Input1",
+                        "Button1Copy"
+                    ],
+                    "deleted": false,
+                    "policies": [],
+                    "layoutOnLoadActions": [
+                        []
+                    ],
+                    "layoutOnCloseActions": [
+                        []
+                    ]
+                }
+            ],
+            "isHidden": false
+        }
+    }
+]
